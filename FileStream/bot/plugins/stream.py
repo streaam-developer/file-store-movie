@@ -38,6 +38,7 @@ async def private_receive_handler(bot: Client, message: Message):
         inserted_id = await db.add_file(get_file_info(message))
         await get_file_ids(False, inserted_id, multi_clients, message)
         reply_markup, stream_text = await gen_link(_id=inserted_id)
+   #     stream_text = {stream_text}/
         await message.reply_text(
             text=stream_text,
             parse_mode=ParseMode.HTML,

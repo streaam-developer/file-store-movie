@@ -24,7 +24,7 @@ class LANG(object):
 """
 
     STREAM_TEXT = """
-<h3 class="wp-block-heading">{}{}<br><a rel="noreferrer noopener" href="{}" target="_blank">Click Here To Download</a></h3>
+<code><h3><h3 class="wp-block-heading">{}{}<br><a rel="noreferrer noopener" href="{}" target="_blank">Click Here To Download</a></h3></code></h3>
 """
     STREAM_TEXT_X = """
 <i><u>𝗬𝗼𝘂𝗿 𝗟𝗶𝗻𝗸 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 !</u></i>\n
